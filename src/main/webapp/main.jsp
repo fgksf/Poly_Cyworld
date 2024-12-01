@@ -16,13 +16,13 @@
 		<%@ include file="./header.jsp" %>
 		<!-- header line end -->
 	
-		<div id="SideProfile">
+		<div id="SideProfile"  class="AreaRound">
 		<!-- 좌측 프로필 구역 -->
 			<div class="AsidePhoto"> <img alt="" src=""> </div>
 			<div class="nickname"><p>유저네임</p> <p>정보수정</p></div>
 			<div class="introduce"><p>자기소개내용</p></div>
 		</div>
-		<div id="MiniMain">
+		<div id="MiniMain"  class="AreaRound">
 		<!-- 우측 콘텐츠 구역 -->
 			<div id="MinimiArea">
 				<p>미니미 에어리어</p>

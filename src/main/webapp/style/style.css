@@ -4,19 +4,36 @@
 }
 main{
     display:flex;
-    align-items:center;
     width:800px;
     height:200px;
     justify-content: flex-start;
 }
 main > header{order:3;}
 
+#NavList{
+	padding: 20px 0 0 0;
+}
+
+#NavList > li{
+	background:#fff;
+	padding:10px;
+	text-align:center;
+	border:1px solid #000;
+	margin-bottom:5px;
+	border-left:0;
+}
+#NavList > li:lastchild{
+	margin:0;
+}
+
 #SideProfile{
-	background:#fff; 
 	height:90%;
 }
 #MiniMain{
-	background:#fff;
 	height:90%;
-	border-radius:20px;
+}
+.AreaRound{
+	background:#fff;
+	border-radius: 20px;
+	padding:20px;
 }
