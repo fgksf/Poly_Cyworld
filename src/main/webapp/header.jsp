@@ -2,7 +2,7 @@
     pageEncoding="UTF-8"%>
 <header>
 <ul id="NavList">
-  <li>홈</li>
+  <li class="select">홈</li>
   <li>게시판</li>
   <li>방명록</li>
   <li>포토앨범</li>

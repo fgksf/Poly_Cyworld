@@ -1,17 +1,23 @@
 @charset "UTF-8";
 #MainContainer{
-	background:#d9d9d9
+	background:#d9d9d9;
+	height:400px;
 }
 main{
     display:flex;
     width:800px;
-    height:200px;
+    padding:20px;
+    height:calc(400px - 40px);
     justify-content: flex-start;
 }
-main > header{order:3;}
+main > header{order:3; width:15%;}
 
 #NavList{
 	padding: 20px 0 0 0;
+/* 	selct 효과를 위한 속성 */
+	position: relative;
+	right:1px;
+	z-index:99;	
 }
 
 #NavList > li{
@@ -20,20 +26,33 @@ main > header{order:3;}
 	text-align:center;
 	border:1px solid #000;
 	margin-bottom:5px;
+}
+#NavList > li.select{
 	border-left:0;
+	
 }
 #NavList > li:lastchild{
 	margin:0;
 }
 
 #SideProfile{
-	height:90%;
+	height:85%; width:25%;
+	margin-right: 20px;
 }
 #MiniMain{
-	height:90%;
+	height:85%; width:70%;
+	position: relative;
+	z-index: 1;
 }
 .AreaRound{
 	background:#fff;
+	border:1px solid #000;
 	border-radius: 20px;
 	padding:20px;
+}
+
+/* 유저프로필  */
+.AsidePhoto{
+	padding:30px;
+	background:#ddd;
 }
