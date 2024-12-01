@@ -1,1 +1,22 @@
 @charset "UTF-8";
+#MainContainer{
+	background:#d9d9d9
+}
+main{
+    display:flex;
+    align-items:center;
+    width:800px;
+    height:200px;
+    justify-content: flex-start;
+}
+main > header{order:3;}
+
+#SideProfile{
+	background:#fff; 
+	height:90%;
+}
+#MiniMain{
+	background:#fff;
+	height:90%;
+	border-radius:20px;
+}

@@ -6,21 +6,23 @@
 <meta charset="UTF-8">
 <title>'유저네임' 님의 미니홈피</title>
 <link rel="stylesheet" href="style/reset.css">
+<link rel="stylesheet" href="style/style.css">
 </head>
 <body>
-	<!-- header line -->
-	<%@ include file="./header.jsp" %>
-	<!-- header line end -->
+	<section id="MainContainer"> 
 	<!-- body -->
 	<main>
-	<!-- 브라우저의 창 자체 크기를 조정하는건 규칙에 어긋남. -->
+		<!-- header line -->
+		<%@ include file="./header.jsp" %>
+		<!-- header line end -->
+	
 		<div id="SideProfile">
 		<!-- 좌측 프로필 구역 -->
 			<div class="AsidePhoto"> <img alt="" src=""> </div>
 			<div class="nickname"><p>유저네임</p> <p>정보수정</p></div>
 			<div class="introduce"><p>자기소개내용</p></div>
 		</div>
-		<div id="MainContainer">
+		<div id="MiniMain">
 		<!-- 우측 콘텐츠 구역 -->
 			<div id="MinimiArea">
 				<p>미니미 에어리어</p>
@@ -47,6 +49,7 @@
 			</div>
 		</div>
 	</main>
+	</section>
 	<!-- footer line -->
 	<%-- <%@ include file="./footer.jsp" %> --%>
 </body>
