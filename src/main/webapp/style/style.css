@@ -53,6 +53,6 @@ main > header{order:3; width:15%;}
 
 /* 유저프로필  */
 .AsidePhoto{
-	padding:30px;
+	width:150px; height:150px;
 	background:#ddd;
 }
