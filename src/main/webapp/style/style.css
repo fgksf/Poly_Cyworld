@@ -27,6 +27,8 @@ main > header{order:3; width:100px;}
 	text-align:center;
 	border:1px solid #000;
 	margin-bottom:5px;
+	cursor:pointer;
+	border-radius: 0 5px 5px 0;
 }
 #NavList > li.select{
 	border-left:0;
@@ -46,9 +48,10 @@ main > header{order:3; width:100px;}
 	z-index: 1;
 }
 .AreaRound{
+	display:flex;
+	flex-direction:column;
 	background:#fff;
 	border:1px solid #000;
-	border-radius: 20px;
 	padding:20px;
 }
 
@@ -56,4 +59,11 @@ main > header{order:3; width:100px;}
 .AsidePhoto{
 	width:150px; height:150px;
 	background:#ddd;
+}
+
+.NickName{
+	display:flex;
+	margin:20px 0;
+	justify-content: space-between;
+	width:100%;
 }

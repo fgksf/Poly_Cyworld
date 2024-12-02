@@ -23,7 +23,8 @@
 			<div class="introduce"><p>자기소개내용</p></div>
 		</div>
 		<div id="MiniMain"  class="AreaRound">
-		<!-- 우측 콘텐츠 구역 -->
+		<!-- MiniMain Start -->
+		<!-- MiniMain 안에서 각자 콘텐츠 작업 -->
 			<div id="MinimiArea">
 				<p>미니미 에어리어</p>
 			</div>
@@ -47,6 +48,7 @@
 					</ul>
 				</div>
 			</div>
+		<!-- MiniMainEnd -->
 		</div>
 	</main>
 	</section>
