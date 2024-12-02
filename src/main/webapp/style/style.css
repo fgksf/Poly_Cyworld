@@ -1,20 +1,21 @@
 @charset "UTF-8";
 #MainContainer{
+	height:100vh;
 	background:#d9d9d9;
-	height:400px;
+	overflow:hidden;
 }
 main{
     display:flex;
-    width:800px;
+    width:80%;
     padding:20px;
-    height:calc(400px - 40px);
+    height:calc(80% - 40px);
     justify-content: flex-start;
 }
-main > header{order:3; width:15%;}
+main > header{order:3; width:100px;}
 
 #NavList{
 	padding: 20px 0 0 0;
-/* 	selct 효과를 위한 속성 */
+/* 	select 효과를 위한 속성 */
 	position: relative;
 	right:1px;
 	z-index:99;	
